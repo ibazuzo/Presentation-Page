@@ -12,13 +12,15 @@
 <body>
 	<header class="header">
 		<div class="wrapper">
-			<a class="logo_link" href=""><img class="logo" src="http://placehold.it/65x65"></a>
+			<a class="logo_link" href="decoy.html"><img class="logo" src="http://placehold.it/65x65"></a>
+			<label for="trigger" class="trigger_label"><div></div><div></div><div></div></label>
+
 			<nav class="nav_header">
-				<ul class="list menu">
-					<li class="menu_item"><a href="">Home</a></li>
-					<li class="menu_item"><a href="">About Us</a></li>
-					<li class="menu_item"><a href="">Services</a></li>
-					<li class="menu_item"><a href="">Contact Us</a></li>
+				<input type="checkbox" id="trigger">
+				<ul class="list menu menu_mobile">
+					<li class="menu_item"><a href="#about">About Us</a></li>
+					<li class="menu_item"><a href="#services">Services</a></li>
+					<li class="menu_item"><a href="#contact">Contact Us</a></li>
 				</ul>
 			</nav>
 			<div class="clear_fix"></div>
@@ -28,18 +30,18 @@
 			</div>
 			<div class="get_started">
 				<a class="get_started_buton" href="">Get started</a>
-				<a class="get_started_link" href="">Learn more <div class="arrow"></div></a>
+				<a class="get_started_link" href="#about">Learn more <div class="arrow"></div></a>
 			</div>
 		</div>
 	</header>
-	<section class="section about_us">
+	<section class="section about_us" id="about">
 		<div class="wrapper">
 			<h2 class="h2">Who we are</h2>
 			<p class="p_big">With our full service approach everything is taken care of. We'll help you plan, develop and launch your online store. We analyze your customer and your business to see what works best for you. This approach ensures we serve you what you want and your customers get what they need.</h3>
 				<div class="line"></div>
 		</div>
 	</section>
-	<section class="section services">
+	<section class="section services" id="services">
 		<div class="wrapper">
 			<h2 class="h2">What we can do for you</h2>
 			<p class="p_medium">We help you launch your online store and improve your current store?</p>
@@ -97,7 +99,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contact">
+	<section class="contact" id="contact">
 		<div class="wrapper">
 			<h2 class="h2">Ready to take your business online?</h2>
 			<h2 class="h2">
@@ -121,9 +123,9 @@
 			<img class="logo logo_link" src="http://placehold.it/75x75">
 			<nav class="nav_footer">
 				<ul class="list menu footer_menu">
-					<li class="menu_item"><a href="">Home</a></li>
 					<li class="menu_item"><a href="">About Us</a></li>
 					<li class="menu_item"><a href="">Services</a></li>
+					<li class="menu_item"><a href="">Contact Us</a></li>
 				</ul>
 			</nav>
 			<nav class="nav_footer_social">
